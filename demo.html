@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypingJS demo</title>
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            typeText(document.body, 'Demo text 1', () => {
+                typeText(document.body, 'Demo text 2');
+            })
+        })
+    </script>
+    <script src="https://raw.githubusercontent.com/Wavlo/TypingJS/refs/heads/main/type.js"></script>
+</body>
+</html>
