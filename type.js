@@ -1,6 +1,6 @@
 function typeText(parentElement, text, callback) {
     let index = 0;
-    const p = document.createElement('p');
+    const span = document.createElement('span.typing-js-span');
     parentElement.appendChild(p);
 
     function type() {
